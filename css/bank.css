@@ -1,0 +1,121 @@
+
+  
+   body {
+    background: rgb(121,203,211);
+background: linear-gradient(0deg, rgba(121,203,211,1) 0%, rgba(255,255,255,1) 100%);
+    
+    }
+
+    .header {
+        width: 64%;
+        height: 10vh;
+        margin: 50px auto 0px;
+        color: lavender;
+        background: rgb(2,0,36);
+        background:#13274F;
+        text-align: center;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+        margin-top: -90px;
+        font-size: small;
+    }
+
+    ::placeholder {
+        color: black;
+    }
+
+    select {
+        margin-right: 100px;
+    }
+
+    .a {
+        padding: 6px;
+        margin: 20px 10px;
+        box-sizing: border-box;
+        font-size: medium;
+       
+        border: 1px solid black;
+        text-align: center;
+        width: 25%;
+    }
+
+    .b {
+        padding: 6px;
+        margin: 20px 10px;
+        box-sizing: border-box;
+        font-size: medium;
+        
+        border: 1px solid black;
+        text-align: center;
+        width: 25%;
+    }
+
+    .c {
+        padding: 6px;
+        margin: 20px 10px;
+        font-size: medium;
+       
+        border: 1px solid black;
+        text-align: left;
+        width: 79%;
+    }
+         
+         
+               
+      .d {
+        background-image: linear-gradient(to right, #517fa4 0%, #243949  51%, #517fa4  100%);
+        margin-left: 50vh;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        border: none;
+      }
+
+      .d:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+
+    form {
+        margin: 0 auto;
+        padding: 20px;
+        width: 64%;
+        
+        background-color: whitesmoke;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .dashboardlink {
+        font-size: 25px;
+        font-weight: bold;
+        width:200px;
+        padding: 3px;
+        margin: 10px 10px;
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        text-align: center;   
+    }
+    
+    .dashboardlink a {
+        color:white;
+        text-decoration: none;
+    }
+    @media (max-width:991px) {
+        form {
+            width: 90%;
+        } 
+        .header {
+            width: 90%;
+        }
+        .a,.b,.c{
+            width: 80%;
+            text-align: left;
+        }
+    }

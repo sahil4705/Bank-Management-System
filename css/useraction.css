@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+.header {
+    margin: auto;
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+div {
+    max-width: 1000px;
+}
+a.logout {
+    color: red;
+    font-size: 30px;
+   
+    text-decoration: none;
+    margin: 25px;
+}
+.container a {
+    background-color: lightgreen;
+    display: block;
+    color: blue;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+.container a:hover {
+    background-color: springgreen;
+}

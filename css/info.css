@@ -1,0 +1,167 @@
+body {
+  background-color: lightblue;
+
+  
+}
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: rgb(16, 14, 36);
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  margin-top: 50px;
+}
+form {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  padding-top: 1px;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.uform{
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  padding-top: 1px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.input {
+  margin: 10px 0px 10px 0px;
+}
+.input label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-size: large;
+}
+.input input, select {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: green;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.view {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 5% auto;
+  padding: 20px;
+}
+.view .details {
+  margin: 3px;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px 40px 0px 0px;
+  height: 100%;
+}
+.view .details label {
+  padding: 8px;
+  float: left;
+  text-align: left;
+  margin: 5px;
+  width: 100%;
+  font-size: 35px;
+}
+.view .details .heading {
+  color: white;
+  background: #085658;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  margin: auto;
+}
+h2.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  align-items: center;
+}
+table {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 70%;
+  align-content: center;
+}
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+th {
+  background-color: #085658;
+  color: white;
+  font-size: 22px;
+}
+td {
+  font-size: 22px;
+}
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+tr:nth-child(odd) {
+  background-color: #e9ecef;
+}
+tr:hover {
+  background-color: #e5e5e5;
+}
+@media(max-width:991px) {
+  .header {
+    width: 60%;
+  }
+  .error {
+    width: 60%;
+  }
+  form {
+    width: 60%;
+  }
+  .uform{
+    width: 60%;
+  }
+  .view .details label {
+    font-size: 20px;
+  }
+  .view {
+    width: 80%;
+  }
+  th {
+    font-size: 20px;
+  }
+  td {
+    font-size: 20px;
+  }
+}
+.dashboardlink {
+  font-size: 25px;
+  font-weight: bold;
+  width:200px;
+  padding: 3px;
+  margin: 10px 10px;
+  color: #f8f9fa;
+  background-color:rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  text-align: center;   
+}
+.dashboardlink a {
+  color:white;
+  text-decoration: none;
+}
